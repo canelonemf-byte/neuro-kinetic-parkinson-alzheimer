@@ -1,35 +1,44 @@
 # neuro-kinetic-parkinson-alzheimer
 
-Ingeniería neurocinética para Parkinson y Alzheimer: protocolos de liberación controlada neuroprotectora.
+# neuro-kinetic-parkinson-alzheimer  Ingeniería neurocinética para Parkinson y Alzheimer: protocolos de liberación controlada neuroprotectora.  **Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
 
-**Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
+## Autoría
 
-## Carpetas de origen en Google Drive
+- **Autor:** Lázaro López Paz, El Prat de Llobregat, Barcelona, España
+- **ORCID:** [0000-0001-8601-1963](https://orcid.org/0000-0001-8601-1963)
+- Elaborado con asistencia de inteligencia artificial
+- Sin afiliaciones institucionales
 
-- https://drive.google.com/drive/folders/1ID3B6Z6AqVAj035NQfKzY2hgP3Ov4hiW
+## Estado
 
-## Archivos incluidos
+Proyecto en desarrollo / documentación. No afirmar validación experimental salvo que el código o los informes del propio repositorio lo demuestren.
 
-- `docs/Reporte_Tecnico_de_Capacidades__Validacion_de_Protocolos_de_Liberacion_Controlada_Neuroprotectora.md` ← Reporte Técnico de Capacidades_ Validación de Protocolos de Liberación Controlada Neuroprotectora.pdf
+## Contenido (raíz)
 
-## Pendiente: en Drive
+```
+docs/
+liberacion/
+LICENSE
+README.md
+REFERENCIAS.md
+requirements.txt
+tests/
+```
 
-Archivos binarios (presentaciones, PDFs grandes, vídeos, imágenes, zips, docx) que no se pudieron pasar a texto. Siguen en Drive:
+## Instalación
 
-- Liberación_Controlada.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1f-HJL7mmiC_lYQot8Zglzpa9QmJq7tMB/view?usp=drivesdk
-- Matemáticas_para_tratamientos_neurodegenerativos.png · pendiente: en Drive · https://drive.google.com/file/d/1BfsnNiPWxBjs0wx66RmTdzudxlYNVr9f/view?usp=drivesdk
-- Math_in_Drug_Delivery.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1INxFMOWJ1z4vmydW7PNUxymvm-1BIPBC/view?usp=drivesdk
-- Neuro-Kinetic_Engineering.pdf · pendiente: en Drive · https://drive.google.com/file/d/17JSRv5llE9li67yaR4_QVJsbWOPy2IGY/view?usp=drivesdk
-- Neuro-Kinetic_Engineering.pptx · pendiente: en Drive · https://docs.google.com/presentation/d/1c_ZeDGz-wAheqPZG53OK_iu7ujtN_jvB/edit?usp=drivesdk&ouid=104725215047766891127&rtpof=true&sd=true
-- Precision_Neuro-Therapy_Mathematical_Modeling.png · pendiente: en Drive · https://drive.google.com/file/d/1vl3MblYwmjzI_jD-FZ9Oe0HYJu-aG0yp/view?usp=drivesdk
-- The_Pharmacokinetic_Blueprint.pdf · pendiente: en Drive · https://drive.google.com/file/d/1Cl95ygMz7_cuRbJRKiiMDo2BhmqMaxg2/view?usp=drivesdk
-- The_Pharmacokinetic_Blueprint.pptx · pendiente: en Drive · https://docs.google.com/presentation/d/1oh4AXn5ytkvdKGu9CD-mNa7J0vhnT994/edit?usp=drivesdk&ouid=104725215047766891127&rtpof=true&sd=true
+```bash
+pip install -r requirements.txt
+```
 
----
-Los archivos `.trashed-*`, las copias («- copia») y los duplicados entre carpetas no se han listado.
 
-## Referencias
-Ver [REFERENCIAS.md](REFERENCIAS.md).
+## Uso
 
-## Código realizable hoy
-`liberacion/`: modelos de liberación controlada (Higuchi, orden cero, primer orden), ajuste de k_H con datos in vitro y tiempo hasta una fracción liberada. No es un modelo clínico. `pip install -r requirements.txt && pytest`.
+Archivos Python principales (revisar cada uno antes de ejecutar):
+- `liberacion/__init__.py`
+- `tests/test_liberacion.py`
+
+
+## Licencia
+
+Ver archivo `LICENSE` (o `LICENSE.md`) en la raíz. Documentación bajo CC BY 4.0 cuando aplique; código habitualmente MIT, salvo indicación contraria.
